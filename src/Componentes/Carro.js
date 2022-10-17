@@ -9,6 +9,7 @@ function Carro(props) {
         <li>Ano: {props.ano}</li>
         <li>Flex: {props.flex}</li>
         <li>adicionadoPor: {props.adicionadoPor}</li>
+        <button onClick={props.trocaCarro}>Mudar Carro</button>
       </EstilizacaoDoCarro>
     </div>
   );
